@@ -70,5 +70,6 @@ Registros de falhas e condições de operação de equipamentos industriais, uti
 
 Conjunto de dados de imagens de diferentes tipos de resíduos, utilizado para treinar o modelo de classificação.
 
+***Vídeo de apresentação***
 
-
+LINK: https://drive.google.com/file/d/1At-bZqiBnv7MAe-XF7rp1FO_kLxDrZyt/view?usp=sharing
