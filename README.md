@@ -1,5 +1,35 @@
 *A IASI tem como objetivo transformar a gestão industrial através da aplicação de Inteligência Artificial e Machine Learning. Ele foca em três áreas críticas para a eficiência operacional, sendo essas:*
 
+
+***Entendendo conceitos de arquitetura***
+
+
+Em aprendizado de máquina e da inteligência artificial, arquitetura de rede neural refere-se à estrutura e organização dos componentes de uma rede neural. Essa estrutura é essencial para definir como os dados são processados, transformados e utilizados para fazer previsões ou classificações. Entre as diversas arquiteturas de redes neurais, duas das mais comuns são a Rede Neural Densa (DNN) e a Rede Neural Convolucional (CNN). Cada uma dessas arquiteturas é projetada para atender a necessidades específicas de processamento de dados.
+
+***DNN (Deep Neural Network) - Rede Neural Densa***
+A DNN, ou Rede Neural Densa, é uma arquitetura composta por múltiplas camadas de neurônios, onde cada neurônio de uma camada está completamente conectado a todos os neurônios da próxima camada. Essa conexão total é a razão pela qual ela é chamada de "densa". As DNNs são particularmente eficazes para lidar com dados estruturados e tabulares, como tabelas de dados e séries temporais.
+
+**Características Principais:**
+
+Camadas Densas: Cada camada está totalmente conectada à camada seguinte. Isso permite que a rede capture interações complexas entre variáveis.
+Camadas Ocultas: As redes possuem múltiplas camadas ocultas entre a entrada e a saída, que introduzem não-linearidades através de funções de ativação como ReLU (Rectified Linear Unit) ou Sigmoid.
+Regularização: Técnicas como Dropout são usadas para evitar overfitting, garantindo que o modelo generalize bem para novos dados.
+Aplicações Comuns: A DNN é ideal para tarefas como previsão de valores numéricos e classificação de dados tabulares. Por exemplo, no projeto de previsão de consumo de energia, uma DNN é utilizada para analisar dados históricos e prever demandas futuras com base em variáveis como temperatura e ocupação.
+
+***CNN (Convolutional Neural Network) - Rede Neural Convolucional***
+A CNN, ou Rede Neural Convolucional, é uma arquitetura projetada para processar dados com uma estrutura espacial, como imagens e vídeos. Em vez de usar conexões totalmente densas, as CNNs empregam camadas convolucionais para detectar e extrair características locais dos dados.
+
+**Características Principais:**
+
+Camadas Convolucionais: Aplicam filtros para detectar características locais, como bordas e texturas em imagens. Esses filtros ajudam a capturar padrões espaciais.
+Pooling: Camadas de pooling são usadas para reduzir a dimensionalidade dos dados e manter as características mais relevantes.
+Camadas Densas: Após a extração de características, camadas densas são usadas para a classificação final ou outras tarefas.
+Aplicações Comuns: As CNNs são ideais para tarefas de reconhecimento de padrões visuais e análise de imagens. No projeto de gestão e classificação de resíduos, uma CNN é treinada para identificar e classificar diferentes tipos de lixo a partir de imagens, facilitando a triagem automatizada e a gestão eficiente dos resíduos.
+
+A Importância das Arquiteturas
+A escolha da arquitetura de rede neural é fundamental para o sucesso de um projeto de aprendizado de máquina. A arquitetura deve ser alinhada com o tipo de dados e a tarefa específica a ser realizada. Enquanto as DNNs são adequadas para dados tabulares e numéricos, as CNNs são a escolha ideal para dados espaciais e visuais. A arquitetura correta permite que a rede neural aprenda e generalize eficazmente, oferecendo soluções robustas para problemas complexos.
+
+
 ***1. Previsão de Consumo Energético***
 
 Utilizamos uma Rede Neural Densa (DNN) para prever o consumo futuro de energia com base em dados históricos de consumo, variáveis climáticas e operacionais. O modelo foi treinado com o dataset Energy Consumption Prediction do Kaggle. Sua arquitetura inclui camadas ocultas que capturam relações não lineares nos dados, possibilitando otimizar o uso de energia e reduzir custos. Isso é essencial para manter a eficiência energética em fábricas, evitando desperdícios e ajustando a produção com base nas previsões geradas.
