@@ -12,10 +12,13 @@ A DNN, ou Rede Neural Densa, é uma arquitetura composta por múltiplas camadas 
 
 **Características:**
 
-Camadas densas: Cada camada está totalmente conectada à camada seguinte. Isso permite que a rede capture interações complexas entre variáveis.
-Camadas ocultas: As redes possuem múltiplas camadas ocultas entre a entrada e a saída, que introduzem não-linearidades através de funções de ativação como ReLU (Rectified linear unit) ou Sigmoid.
-Regularização: Técnicas como Dropout são usadas para evitar overfitting, garantindo que o modelo generalize bem para novos dados.
-Aplicações comuns: A DNN é ideal para tarefas como previsão de valores numéricos e classificação de dados tabulares. Por exemplo, no projeto de previsão de consumo de energia, uma DNN é utilizada para analisar dados históricos e prever demandas futuras com base em variáveis como temperatura e ocupação.
+**Camadas densas:** Cada camada está totalmente conectada à camada seguinte. Isso permite que a rede capture interações complexas entre variáveis.
+
+**Camadas ocultas:** As redes possuem múltiplas camadas ocultas entre a entrada e a saída, que introduzem não-linearidades através de funções de ativação como ReLU (Rectified linear unit) ou Sigmoid.
+
+**Regularização:** Técnicas como Dropout são usadas para evitar overfitting, garantindo que o modelo generalize bem para novos dados.
+
+**Aplicações comuns:** A DNN é ideal para tarefas como previsão de valores numéricos e classificação de dados tabulares. Por exemplo, no projeto de previsão de consumo de energia, uma DNN é utilizada para analisar dados históricos e prever demandas futuras com base em variáveis como temperatura e ocupação.
 
 ***CNN (Convolutional neural network) - Rede neural convolucional***
 
@@ -23,12 +26,15 @@ A CNN, ou rede neural convolucional, é uma arquitetura projetada para processar
 
 **Características:**
 
-Camadas convolucionais: Aplicam filtros para detectar características locais, como bordas e texturas em imagens. Esses filtros ajudam a capturar padrões espaciais.
-Pooling: Camadas de pooling são usadas para reduzir a dimensionalidade dos dados e manter as características mais relevantes.
-Camadas densas: Após a extração de características, camadas densas são usadas para a classificação final ou outras tarefas.
-Aplicações comuns: As CNNs são ideais para tarefas de reconhecimento de padrões visuais e análise de imagens. No projeto de gestão e classificação de resíduos, uma CNN é treinada para identificar e classificar diferentes tipos de lixo a partir de imagens, facilitando a triagem automatizada e a gestão eficiente dos resíduos.
+**Camadas convolucionais:** Aplicam filtros para detectar características locais, como bordas e texturas em imagens. Esses filtros ajudam a capturar padrões espaciais.
 
-A Importância das arquiteturas
+**Pooling:** Camadas de pooling são usadas para reduzir a dimensionalidade dos dados e manter as características mais relevantes.
+
+**Camadas densas:** Após a extração de características, camadas densas são usadas para a classificação final ou outras tarefas.
+
+**Aplicações comuns:** As CNNs são ideais para tarefas de reconhecimento de padrões visuais e análise de imagens. No projeto de gestão e classificação de resíduos, uma CNN é treinada para identificar e classificar diferentes tipos de lixo a partir de imagens, facilitando a triagem automatizada e a gestão eficiente dos resíduos.
+
+***Importância das arquiteturas***
 A escolha da arquitetura de rede neural é fundamental para o sucesso de um projeto de aprendizado de máquina. A arquitetura deve ser alinhada com o tipo de dados e a tarefa específica a ser realizada. Enquanto as DNNs são adequadas para dados tabulares e numéricos, as CNNs são a escolha ideal para dados espaciais e visuais. 
 
 
