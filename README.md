@@ -1,4 +1,4 @@
-*O IASI (Inteligência de Avaliação de Sustentabilidade Industrial) busca melhorar a gestão industrial utilizando Inteligência Artificial e Machine Learning para otimizar processos em três áreas principais: consumo de energia, manutenção de equipamentos e gestão de resíduos. *
+*O IASI (Inteligência de Avaliação de Sustentabilidade Industrial) busca melhorar a gestão industrial utilizando Inteligência Artificial e Machine Learning para ampliar processos em três áreas principais: consumo de energia, manutenção de equipamentos e gestão de resíduos.*
 
 
 ***Entendendo conceitos de arquitetura***
