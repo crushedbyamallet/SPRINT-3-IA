@@ -30,6 +30,8 @@ A Importância das Arquiteturas
 A escolha da arquitetura de rede neural é fundamental para o sucesso de um projeto de aprendizado de máquina. A arquitetura deve ser alinhada com o tipo de dados e a tarefa específica a ser realizada. Enquanto as DNNs são adequadas para dados tabulares e numéricos, as CNNs são a escolha ideal para dados espaciais e visuais. A arquitetura correta permite que a rede neural aprenda e generalize eficazmente, oferecendo soluções robustas para problemas complexos.
 
 
+****Como isso se aplica no nosso projeto?****
+
 ***1. Previsão de Consumo Energético***
 
 Utilizamos uma Rede Neural Densa (DNN) para prever o consumo futuro de energia com base em dados históricos de consumo, variáveis climáticas e operacionais. O modelo foi treinado com o dataset Energy Consumption Prediction do Kaggle. Sua arquitetura inclui camadas ocultas que capturam relações não lineares nos dados, possibilitando otimizar o uso de energia e reduzir custos. Isso é essencial para manter a eficiência energética em fábricas, evitando desperdícios e ajustando a produção com base nas previsões geradas.
