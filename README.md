@@ -6,7 +6,7 @@
 
 Em aprendizado de máquina e da inteligência artificial, arquitetura de rede neural refere-se à estrutura e organização dos componentes de uma rede neural. Essa estrutura é essencial para definir como os dados são processados, transformados e utilizados para fazer previsões ou classificações. Entre as diversas arquiteturas de redes neurais, duas das mais comuns são a Rede Neural Densa (DNN) e a Rede Neural Convolucional (CNN). Cada uma dessas arquiteturas é projetada para atender a necessidades específicas de processamento de dados.
 
-***DNN (Deep Neural Network) - Rede neural densa***
+***DNN (Deep neural network) - Rede neural densa***
 A DNN, ou Rede Neural Densa, é uma arquitetura composta por múltiplas camadas de neurônios, onde cada neurônio de uma camada está completamente conectado a todos os neurônios da próxima camada. Essa conexão total é a razão pela qual ela é chamada de "densa". As DNNs são particularmente eficazes para lidar com dados estruturados e tabulares, como tabelas de dados e séries temporais.
 
 **Características:**
