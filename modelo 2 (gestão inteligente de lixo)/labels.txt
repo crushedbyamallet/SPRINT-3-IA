@@ -1,0 +1,12 @@
+0 eletrônico
+1 biodegradável
+2 vidro (marrom)
+3 vidro (verde)
+4 vidro (branco)
+5 papelão
+6 roupas
+7 metal
+8 papel
+9 plástico
+10 sapatos
+11 lixo comum
